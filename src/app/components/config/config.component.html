@@ -1,0 +1,53 @@
+<section id="config">
+  <span class="sdevm">SDEVM</span>
+  <div class="menu">
+    <div (click)="music()" class="spread">
+      <span>MUSIC</span>
+      <img
+        [src]="
+          configs.music() ? 'assets/icons/music.png' : 'assets/icons/off.png'
+        "
+      />
+    </div>
+    <div (click)="sfx()" class="spread">
+      <span>SFX/UI</span>
+      <img
+        [src]="configs.sfx() ? 'assets/icons/sfx.png' : 'assets/icons/off.png'"
+      />
+    </div>
+    <div (click)="type()" class="spread">
+      <span>ANIMATED TYPING</span>
+      <img
+        [src]="
+          configs.animatedText()
+            ? 'assets/icons/type.png'
+            : 'assets/icons/off.png'
+        "
+      />
+    </div>
+    <span (click)="continue()" routerLink="summary" class="continue"
+      >CONTINUE</span
+    >
+  </div>
+  <div id="footer">
+    <span>Attributions</span>
+    <a href="https://www.flaticon.com/free-icons/move" title="move icons"
+      >Move icons created by Pixel perfect - Flaticon</a
+    >
+    <a href="https://www.flaticon.com/free-icons/skull" title="skull icons"
+      >Skull icons created by Freepik - Flaticon</a
+    >
+    <a href="https://www.flaticon.com/free-icons/rose" title="rose icons"
+      >Rose icons created by Chanut-is-Industries - Flaticon</a
+    >
+    <a href="https://www.flaticon.com/free-icons/steel" title="steel icons"
+      >Steel icons created by Smashicons - Flaticon</a
+    >
+    <a href="https://www.flaticon.com/free-icons/home" title="home icons"
+      >Home icons created by Dave Gandy - Flaticon</a
+    >
+    <a href="https://www.flaticon.com/free-icons/order" title="order icons"
+      >Order icons created by vectorsmarket15 - Flaticon</a
+    >
+  </div>
+</section>

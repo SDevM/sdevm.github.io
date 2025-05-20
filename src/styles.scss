@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+//Responsive Layout
+//Landscape screen in variety
+// @media only screen {
+//   //TVs and Extra Wide Screens
+//   @media (min-width: 1921px) {
+//   }
+//   //Desktops and Large Tablet Screens
+//   @media (max-width: 1920px) {
+//   }
+//   //Phones and Tablets up to Laptops and Small Monitors
+//   @media (max-width: 1280px) {
+//   }
+//   //Forced vertical
+//   @media (max-width: 720px), (orientation: portrait) {
+//   }
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P";
+}
+
+//Landscape screen in variety
+@media only screen {
+  //TVs and Extra Wide Screens
+  @media (min-width: 1921px) {
+    html {
+      font-size: 200%;
+    }
+  }
+  //Desktops and Large Tablet Screens
+  @media (max-width: 1920px) {
+    html {
+      font-size: 150%;
+    }
+  }
+  //Phones and Tablets up to Laptops and Small Monitors
+  @media (max-width: 1280px) {
+    html {
+      font-size: 120%;
+    }
+  }
+  //Force Vertical
+  @media (max-width: 720px), (orientation: portrait) {
+    html {
+      font-size: 100%;
+    }
+  }
+}
+
+.containerGeneric {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  // background: #00000099;
+  background: black;
+  overflow: hidden;
+}
+
+//KeyFrames//
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  26% {
+    opacity: 0.5;
+  }
+  27% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  31% {
+    opacity: 0.5;
+  }
+  32% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  76% {
+    opacity: 0.5;
+  }
+  77% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  81% {
+    opacity: 0.5;
+  }
+  82% {
+    opacity: 1;
+  }
+  86% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0.5;
+  }
+  88% {
+    opacity: 1;
+  }
+}
