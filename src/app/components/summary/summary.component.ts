@@ -102,7 +102,7 @@ export class SummaryComponent implements AfterViewInit, OnDestroy {
       },
       {
         trueVal:
-          "Our background checks show that he is from the island of Jamaica, a beautiful tropical country in the Caribbean. There, he fell in love with video games and decided to become a programmer, what he would consider a 'logic wizard' performing magical feats of 1s and 0s.",
+          "Our background checks show that he is from the island of Jamaica, a beautiful tropical country in the Caribbean. There, he fell in love with video games and decided to become a programmer, what he considered a 'logic mystic' performing arcane feats of 1s and 0s.",
         etchRate: 1000 * 0.03,
         bipCode: 1,
         postDelay: 1000 * 1,
